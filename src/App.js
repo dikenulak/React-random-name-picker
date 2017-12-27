@@ -50,8 +50,10 @@ class App extends Component {
     return (
       <div>
         <Input getInputName={this.getInputName} />
-        <Button clickEvent={this.getWinner} buttonName="winner" />
-        <Button clickEvent={this.reset} buttonName="reset" /> 
+        <div>
+          <Button clickEvent={this.getWinner} buttonName="winner" />
+          <Button clickEvent={this.reset} buttonName="reset" /> 
+        </div>
       </div>
     );
   }

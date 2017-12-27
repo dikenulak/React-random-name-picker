@@ -5,6 +5,7 @@ body {
 }
 
 input {
+  width: 300px;
   height: 40px;
   outline: 0;
   vertical-align: middle;
@@ -13,4 +14,13 @@ input {
   border-radius: 3px;
   box-shadow: none;
   padding: 0 12px;
+}
+button{
+  width: 100px;
+  height: 40px;
+  outline: 0;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
 }
